@@ -88,8 +88,6 @@ function handleSearchButtonClick() {
     });
   }
 
-  //console.log("country ", $countryOptions.property("value"));
-
   if($countryOptions.property("value")){
     var filterWord = $countryOptions.property("value");
     // Set ufoData to an array of all addresses whose "country" matches the filter
