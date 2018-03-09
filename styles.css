@@ -1,0 +1,82 @@
+/*
+.form-control {
+  display: inline-block;
+  width: 250px;
+  margin-top: 50px;
+}
+*/
+td{
+  word-wrap: break-word;
+  max-width:500px;
+}
+
+.main-data-container{
+  border-style: solid;
+  border-width: 1px;
+  padding: 40px;
+  background-color: rgb(44, 67, 83);
+  width: 98% !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  
+}
+
+body{
+  background-color: black;
+}
+
+.my-jumbotron{
+  margin-bottom: 0px !important;
+  background-color: black;
+  color: white;
+  padding: 12rem 2rem !important;
+}
+
+.filter-content{
+  padding:15px;
+  margin-top: 0px !important;
+  background-color: rgb(36, 56, 70) !important;
+  padding-left: 40px;
+  color: white;
+}
+
+.my-selction{
+  color:black !important;
+  width: 110px;
+}
+
+.my-text{
+  color: black !important;
+}
+
+.filter-heading{
+  padding: 10px 0px 10px 40px;
+  background-color: rgb(22, 36, 44);
+  width: 100%;
+  color: white;
+  
+}
+
+.nav-heading{
+  align-content: left;
+  text-align: left;
+}
+
+.my-nav-container, a, li{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: rgb(44, 67, 83) !important;
+}
+
+.my-nav-button{
+  padding: 5px;
+  border: 1px solid;
+}
+
+
+a{
+  color: black !important;
+  background-color: white !important;
+}
+
+
