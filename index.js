@@ -14,7 +14,7 @@ var $pageOptions = d3.select('#pageSelect');
 var $pageNumbers = d3.select('.my-page-numbers');
 
 
-
+// add event listneres to search fields
 $dateInput.on('change',handleSearchButtonClick);
 $stateInput.on('change',handleSearchButtonClick);
 $cityInput.on('change',handleSearchButtonClick);
@@ -52,7 +52,7 @@ function renderTable() {
 }
 
 function handleSearchButtonClick() {
-  // everytime filter criteria changes, get the actual data set and based on the filter fields update the ufoData, which is to be displayed
+  // everytime filter criteria changes, get the actual data set and based on the filter fields update the ufoData( date is to be displayed)
   ufoData = dataSet;
 
   if($stateInput.node().value){
@@ -120,6 +120,7 @@ function handleSearchButtonClick() {
 
 function getUniqueCountries(){
   var distinct = [];
+  // get distinct countries to display in select option
   distinct = ufoData.map(item => item.country)
               .filter((value, index, self) => self.indexOf(value) === index)
   $countryOptions.html("");
@@ -133,7 +134,7 @@ function getUniqueCountries(){
 
 function getUniqueShapes(){
   var distinct = [];
-  // get distinct shapes 
+  // get distinct shapes to display in select option
   distinct = ufoData.map(item => item.shape)
               .filter((value, index, self) => self.indexOf(value) === index)
   $shapeOptions.html("");
