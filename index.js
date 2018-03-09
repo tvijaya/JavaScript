@@ -2,7 +2,7 @@
 // dataSet comes from the dataSet.js file
 var ufoData = dataSet;
 
-// Get references to the tbody element, input field and button
+// Get references to the input field and select options
 var $tbody = document.querySelector('tbody');
 
 var $dateInput = d3.select('#date-input');
